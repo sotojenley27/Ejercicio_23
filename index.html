@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina la Palabra: El Ahorcado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Adivina la Palabra: El Ahorcado</h1>
+    <p id="wordDisplay">Palabra: <span id="wordState">_____</span></p>
+    <p>Intentos restantes: <span id="attempts">6</span></p>
+    <p>Letras usadas: <span id="usedLetters">Ninguna</span></p>
+  </div>
+
+  <!-- Modal de Ganar -->
+  <div id="winModal" class="modal">
+    <div class="modal-content">
+      <h2 style="color: green;">¡GANASTE!</h2>
+    </div>
+  </div>
+
+  <!-- Modal de Perder -->
+  <div id="loseModal" class="modal">
+    <div class="modal-content">
+      <h2 style="color: red;">¡PERDISTE!</h2>
+    </div>
+  </div>
+
+  <script src="game.js" defer></script>
+</body>
+</html>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
